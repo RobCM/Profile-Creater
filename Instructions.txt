@@ -1,0 +1,14 @@
+In order to use upload the files (index.html and assets folder) to you web hosting provider.
+
+* Do not upload this instructions text file.
+
+* To change the images use for avatars upload you new images to the folder name avatars inside 
+the assets folder. images most be 100 x 126 and most have the same name.png in order for them 
+to be found by the code.
+
+* To change the title (Create Profile! ) open the main.js code with you favorite code compiler (I use nopad++)
+The main.js is located on the assets folder.
+In the line code:   formHTML = "<div id =\"boxTitle\"><center>Create Profile!</center></div>" +
+you change it to:   formHTML = "<div id =\"boxTitle\"><center>What ever title you will like</center></div>" +
+Same process to change the tile on (Your Profile!) but changes are made on 
+the line code:  profileHTML = "<div id =\"boxTitle\"><center>Your Profile!</center></div>" +

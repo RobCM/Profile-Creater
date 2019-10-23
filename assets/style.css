@@ -1,0 +1,183 @@
+/*
+	2019 @RobertC---------------------------------------
+	Make your changes for color/size/fonts here!
+	This CSS file declares the HTML elements attributes
+	@RobertC
+	---------------------------------------------------
+*/
+
+/* Background attribute */
+body {
+	background-color: #7490c2;
+}
+/* Form container attribute */
+#main_box {
+	margin: 90px auto;
+	width: 400px;
+	height: 600px;
+	background-color: #5574ad;
+	color: white;
+	border-radius: 1px 1px 30px 30px;
+	/* Box shadow */
+	box-shadow: 10px 15px 15px black;
+}
+/* Title */
+#boxTitle {
+	color: white;
+	font-size: 45px;
+	font-family: Brush Script MT;
+	background: repeating-linear-gradient( 45deg, transparent, transparent 2px, black 4px, black 12px ),linear-gradient( to bottom, #383838, #435f );
+}
+/* Inputs frame */
+#inputFrame {
+	width: 300px;
+	padding-bottom: 6px;
+	margin-left: 50px;
+}
+/* Input labels */
+label {
+	margin-left: 50px;
+}
+
+/* Input fields attributes */
+#email_input, #password_input, #username_input {
+	margin-left: 50px;
+	width: 200px;
+}
+/* Scrollbar attributes */
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: #214d9e #7caae6;
+  scrollbar-width: thin;
+}
+/* Avatar container frame */
+#avatarSelect {
+	display: flex;
+	margin-left: 5px;
+	flex-flow: row wrap;
+	width: 390px;
+	height: 180px;
+}
+/* Avatar title */
+#avatarTitle {
+	text-align: center;
+}
+/* Avatar selection check box */
+.checkbox_check {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+/* Avatar containers (for each) and image path */
+#ava_One {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar1.png");
+}
+#ava_Two {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar2.png");
+}
+#ava_Three {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar3.png");
+}
+#ava_Four {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar4.png");
+}
+#ava_Five {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar5.png");
+}
+#ava_Six {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar6.png");
+}
+#ava_Seven {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar7.png");
+}
+#ava_Eight {
+	width: 90px;
+	height: 120px;
+	border-radius: 25px;
+	border: 3px solid #5574ad;
+	background-image: url("../assets/avatars/avatar8.png");
+}
+/* Create profile button */
+#createProfile {
+	margin-left: 290px;
+	background-color: #214d9e;
+	color: white;
+}
+/* Hover over button */
+#createProfile:hover {
+	background-color: lightgray;
+	color: gray;
+}
+/* Error text */
+#errorText {
+	position: absolute;
+	top: 620px;
+	margin-left: 5px;
+	padding: 5px;
+	color: #f54636;
+	border-radius: 25px;
+	border: 2px solid #f54636;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Monospace;
+}
+/* Profile frame */
+#profileBox {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 20px;
+}
+/* Profile image */
+#image {
+	border-radius: 25px;
+}
+/* Profile text and frame */
+#profileData {
+	width: 240px;
+	border-radius: 25px;
+	border: 2px solid white;
+	margin-left: 15px;
+}
+#profileData label {
+	padding: 5px;
+	margin-left: 10px;
+}
+#createdText {
+	position: absolute;
+	top: 600px;
+	margin-left: 30px;
+	padding: 5px;
+	color: #90ee90;
+	font-size: 54px;
+	font-weight: bold;
+	font-family: Brush Script MT;
+}
